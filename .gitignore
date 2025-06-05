@@ -1,0 +1,44 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Logs and databases
+/storage/logs/*
+!/storage/logs/.gitkeep
+*.log
+*.sqlite
+*.db
+
+# Cache and temporary files
+.php_cs.cache
+.phpunit.result.cache
+Thumbs.db
+.cache/
+*.swp
+*.swo
+
+# Composer
+composer.phar
+composer.lock
+
+# Build directories
+/dist/
+/build/
+/public/hot/
+/public/storage/
+
+# Test coverage
+/coverage/
+.phpunit.cache/

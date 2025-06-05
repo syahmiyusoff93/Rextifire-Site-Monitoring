@@ -1,0 +1,64 @@
+{   
+    "production": {
+        "name": "Production Services",
+        "sites": [
+            {
+                "url": "https://example.com",
+                "name": "Main Website",
+                "environment": "production",
+                "ignore_notification": false
+            },
+            {
+                "url": "https://api.example.com",
+                "name": "API Service",
+                "environment": "production",
+                "ignore_notification": false
+            }
+        ]
+    },
+    "staging": {
+        "name": "Staging Environment",
+        "sites": [
+            {
+                "url": "https://staging.example.com",
+                "name": "Staging Site",
+                "environment": "staging",
+                "ignore_notification": true
+            },
+            {
+                "url": "https://beta.example.com",
+                "name": "Beta Testing",
+                "environment": "staging",
+                "ignore_notification": true
+            }
+        ]
+    },
+    "development": {
+        "name": "Development Servers",
+        "sites": [
+            {
+                "url": "https://dev.example.com",
+                "name": "Development Server",
+                "environment": "development",
+                "ignore_notification": true
+            }
+        ]
+    },
+    "external": {
+        "name": "Third Party Services",
+        "sites": [
+            {
+                "url": "https://api.payment-gateway.com/health",
+                "name": "Payment Gateway",
+                "environment": "production",
+                "ignore_notification": false
+            },
+            {
+                "url": "https://cdn.example.com/status",
+                "name": "CDN Status",
+                "environment": "production",
+                "ignore_notification": false
+            }
+        ]
+    }
+}

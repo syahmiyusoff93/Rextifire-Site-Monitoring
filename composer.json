@@ -1,0 +1,20 @@
+{
+  "name": "rextifire/site-monitor",
+  "version": "1.0.0",
+  "description": "A simple PHP site dashboard to monitor multiple websites and notify through Telegram bot if the site is down.",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t src"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
