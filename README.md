@@ -1,5 +1,13 @@
 # Rextifire Site Monitoring
 
+## Demo
+Try out the live demo: [Rextifire Monitor](https://monitor.rextifire.com/index.php)
+
+Example API endpoints:
+- Status Check: [monitor.rextifire.com/?action=check-status](https://monitor.rextifire.com/?action=check-status)
+- Uptime Data: [monitor.rextifire.com/?action=get-uptime&url=https://example.com](https://monitor.rextifire.com/?action=get-uptime&url=https://example.com)
+- Manual Check: [monitor.rextifire.com/?action=get-cron](https://monitor.rextifire.com/?action=get-cron)
+
 ## Overview
 This project is a simple PHP site monitoring dashboard that checks the availability of multiple websites and sends notifications via a Telegram bot if any of the sites are down.
 
